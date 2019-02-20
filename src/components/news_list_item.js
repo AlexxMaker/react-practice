@@ -1,14 +1,11 @@
 import React from 'react';
-import '../css/styles.css'
 
 const NewsItem = ({item}) => {
 
     return (
-         <div>
-                <h3>{item.title}</h3>
-            <div>
-                {item.feed}
-            </div>
+         <div className="news_item">
+            <h3>{item.title}</h3>
+            <p>{item.feed}</p>
         </div>
     );
 }

@@ -19,5 +19,25 @@ header input {
 }
 
 .news_item {
-    background-color: red;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.news_item:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.news_item h3 {
+    margin-left: 100px;
+}
+
+.news_item p {
+    margin-left: 100px;
+}
+
+.news-are {
+    margin-left: 47%;
 }

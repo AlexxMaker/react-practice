@@ -32,7 +32,7 @@ class App extends Component {
             <div>
                 <Header keywords={this.getKeyword}/>
                 <NewsList news={this.state.filtered.length === 0 ? newsWhole : newsFilterer}>
-                    <h3>News are:</h3>
+                    <h3 className="news-are">News are:</h3>
                 </NewsList> 
             </div>
         );

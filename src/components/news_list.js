@@ -10,8 +10,7 @@ const NewsList = (props) => {
     });
 
     return (
-        
-        <div>
+        <div className="news-list">
             {props.children}
             {items}
         </div>
