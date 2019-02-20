@@ -6,17 +6,16 @@ import React, { Component } from 'react'
 class Header extends Component {
 
     state = {
-        keywords: " "
+        keywords: ''
     }
 
     inputChangeHandler = (event) => {
         this.setState({
-            keywords: event.target.value
+            keywords: event.target.value,
         })
     }
 
     render() {
-        
         return (
             <header>
                 <div className="logo">Logo</div>
