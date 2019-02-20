@@ -1,32 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-
-
-
-class Header extends Component {
-
-    state = {
-        keywords: ''
-    }
-
-    inputChangeHandler = (event) => {
-        this.setState({
-            keywords: event.target.value,
-        })
-    }
-
-    render() {
+const Header = (props) => {
         return (
             <header>
                 <div className="logo">Logo</div>
-                <input type="text" onChange={this.inputChangeHandler.bind(this)}/>
-                <p>{this.state.keywords}</p>
+                <input type="text" onChange={props.keywords}/>
             </header>
             )
         }
-    }
-
-
-
 
 export default Header;  

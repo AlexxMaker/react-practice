@@ -1,10 +1,10 @@
 import React from 'react';
-import classes from '../css/styles.css'
+import '../css/styles.css'
 
 const NewsItem = ({item}) => {
 
     return (
-         <div className={classes.new_item}>
+         <div>
                 <h3>{item.title}</h3>
             <div>
                 {item.feed}
